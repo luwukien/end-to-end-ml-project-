@@ -1,17 +1,17 @@
-## End-to-End ML Project (Simple Version)
+## Report End-to-End ML Project (Simple Version)
 
 ### 1. Mục tiêu của Project
 Dự án này mục tiêu là xây dựng mô hình dữ đoán giá nhà(rent) dựa trên các đặc điểm như giá nhà, diện tích, sôs phòng ngủ
 
 ### 2. Dữ liệu
-"Sử dụng bộ dữ liệu 'House Rent Prediction' từ Kaggle."
+Sử dụng bộ dữ liệu 'House Rent Prediction' từ Kaggle.
 Source: https://www.kaggle.com/datasets/iamsouravbanerjee/house-rent-prediction-dataset/data?select=House_Rent_Dataset.csv
 
-"Gồm 4746 mẫu nhà cho thuê với 12 thuộc tính."
+Gồm 4746 mẫu nhà cho thuê với 12 thuộc tính.
 
-"Cột mục tiêu (target) cần dự đoán là 'Rent'."
+Cột mục tiêu (target) cần dự đoán là 'Rent'.
 
-"Dữ liệu có một số cột dạng chữ và cột thiếu giá trị cần được tiền xử lý."
+Dữ liệu có một số cột dạng chữ và cột thiếu giá trị cần được tiền xử lý.
 
 ### 3. Quy trình thực hiện
 - Khám phá dữ liệu: dùng info(), describe(), hist() để hiểu sơ bộ về dữ liệu
